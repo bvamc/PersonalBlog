@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Blog</title>
+	<title>House of Codes</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Raleway:700,400' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+	<header id="main_navigation" class="clearfix">
+		<a href="#" class="name"> House of Codes</a>
+		<nav>
+			<%= link_to "Articles", posts_path %>
+			<a href="projects.html">Projects</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+	</header>
+ 
+
 
 <%= yield %>
 
