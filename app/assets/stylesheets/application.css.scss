@@ -6,6 +6,9 @@ $light: #9a9da4;
 $highlight: #8bc6db;
 $border: #E9E9E9;
 
+*{
+	box-sizing: border-box;
+}
 
 body{
 	font-family: 'Raleway', sans-serif;
@@ -34,9 +37,7 @@ body{
 	display: table;
 }
 
-*{
-	box-sizing: border-box;
-}
+
 
 .clearfix:after{
 	clear: both;
@@ -179,7 +180,7 @@ textarea {
 
 
 
-// @import 'welcome';
+@import 'welcome';
 @import 'posts_projects';
 
 
