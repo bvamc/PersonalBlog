@@ -20,6 +20,10 @@
 			<%= link_to "Projects", projects_path %>
 			<%= link_to "Contact", new_contact_path %>
 			
+			<% if user_signed_in? %>
+				<%= link_to"Sign out", destroy_user_session_path, method: :delete %>
+			<% end %>
+			
 		</nav>
 	</header>
   <% if notice %>
@@ -38,9 +42,13 @@
 		<p class="copyright">&copy;2016 Vamsidhar Bada</p>
 		<nav>
 			<a href="http://www.github.com/vamsidhar2mp" target="_blank"><i class="fa fa-github"></i></a>
-			<a href="https://www.facebook.com/profile.php?id=100002586584913" target="_blank"><i class="fa fa-facebook"></i></a>
 			
-			<a href="https://plus.google.com/u/0/103748014812720853112"><i class="fa fa-google-plus" target="_blank"></i></a>
+			
+			<a href="https://in.linkedin.com/in/vamsidharbada" target="_blank"><i class="fa fa-linkedin"></i></a>
+
+
+			<a href="https://plus.google.com/u/0/103748014812720853112" target="_blank"><i class="fa fa-google-plus" target="_blank"></i></a>
+			
 </a>
 		</nav>
 	</footer>

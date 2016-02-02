@@ -1,6 +1,6 @@
 @import 'normalize';
 
-$dark: #464a54;
+$dark: #424652;
 $white: #FFFFFF;
 $light: #9a9da4;
 $highlight: #8bc6db;
@@ -135,6 +135,12 @@ hr{
 	text-transform: uppercase;
 }
 
+
+.notice, .alert {
+	text-align: center;
+	padding: 1em 0;
+	border-bottom: 1px solid $border; 
+}
 
 #main_footer{
 	padding: 2.5em 5%;
