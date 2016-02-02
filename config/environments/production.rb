@@ -77,7 +77,7 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  config.action_mailer.default_urls_options = { host: 'https://houseofcodes.herokuapp.com' }
+  config.action_mailer.default_urls_options = { host: 'https://houseofcodes.herokuapp.com' , port: 3000 }
   config.action_mailer.delivery_method = :smtp
 
   ActionMailer::Base.smtp_settings = {
