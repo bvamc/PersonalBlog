@@ -5,7 +5,7 @@ $white: #FFFFFF;
 $light: #9a9da4;
 $highlight: #8bc6db;
 $border: #E9E9E9;
-$rosegold: #E6A4A3;
+$rosegold: #EABAB5;
 
 *{
 	box-sizing: border-box;
@@ -103,7 +103,7 @@ hr{
 	}
 
 #main_navigation{
-	padding: 2em 5%;
+	padding: 2.25em 5%;
 	border-bottom: 1px solid $border;
 	.name{ 
 		font-weight:700;
