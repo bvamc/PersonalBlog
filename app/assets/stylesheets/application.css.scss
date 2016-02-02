@@ -35,7 +35,7 @@ input{
 }
 
 .wrapper_padding{
-	padding: 4rem 0;
+	padding: 3.65rem 0;
 }
 
 
@@ -98,18 +98,18 @@ hr{
 		height: 2px;
 		border: 0;
 		border-top: 2px solid $highlight;
-		margin: 2rem 0;
+		margin: 1.5rem 0;
 	}
 
 #main_navigation{
-	padding: 2.5em 5%;
+	padding: 2em 5%;
 	border-bottom: 1px solid $border;
 	.name{ 
 		font-weight:700;
 		font-size: .8em;
 		letter-spacing: 4px;
 		text-transform: uppercase; 
-		border: 2px solid $border;
+		border: 2px solid #E6A4A3;
 		padding: 1em;
 		text-decoration:none;
 		color: $dark;
@@ -130,7 +130,7 @@ hr{
 #page_title{
 	text-align: center;
 	border-bottom: 1px solid $border;
-	padding: 3em 0;
+	padding: 2em 0;
 	font-size: 1rem;
 	text-transform: uppercase;
 }
@@ -144,7 +144,7 @@ hr{
 
 #main_footer{
 	padding: 2.5em 5%;
-	border: 1px solid $border;
+	border-top: 1px solid $border;
 	.copyright{
 		float:left;
 		font-size: .93m;
